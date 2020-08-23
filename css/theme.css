@@ -1,0 +1,91 @@
+@media only screen and  (max-width:960px) and (min-width:768px) {
+    
+    div{
+        background:rgb(204, 203, 203);
+    }
+}
+@media only screen and  (max-width:767px) and (min-width:480px) {
+   
+    
+    div{
+        background:rgb(204, 203, 203);
+    }
+}
+@media only screen and  (max-width:960px) and (min-width:768px) {
+    main  div  .a{
+        
+      
+        border: 1px solid rgb(179, 175, 175);
+    } 
+    main div .b{
+      
+       border: 1px solid rgb(179, 175, 175); 
+    
+    }
+    
+    main div .c,main div  .d{
+       
+      
+       border: 1px solid rgb(179, 175, 175);
+    
+    }
+    
+  main  .float-left    .e{
+        
+      
+       border: 1px solid rgb(179, 175, 175);
+    }
+   main .float-left   .f,   main .float-left .g,   main .float-left .h{
+       
+      
+       border: 1px solid rgb(179, 175, 175);
+    }
+    
+  main .float-left  .i{
+       
+  
+       border: 1px solid rgb(179, 175, 175);
+    }
+}
+@media only screen and  (max-width:767px) and (min-width:480px) {
+    main div .a{
+        
+       
+       border: 1px solid rgb(179, 175, 175);
+    }
+    main div .b{
+       
+    
+       border: 1px solid rgb(179, 175, 175);
+    
+    }
+  
+    main div  .c,main div .d{
+        
+     
+       border: 1px solid rgb(179, 175, 175);
+    
+    }
+    
+ main  .float-left .e, main  .float-left .h{
+      
+    
+       border: 1px solid rgb(179, 175, 175);
+    }
+    main  .float-left .f,main  .float-left .g{
+     
+       border: 1px solid rgb(179, 175, 175);
+    }
+    .float-left{
+        
+        background:none;
+    } 
+
+  main  .float-left  .i{
+    
+      
+       border: 1px solid rgb(179, 175, 175);
+       
+    }
+    
+}
