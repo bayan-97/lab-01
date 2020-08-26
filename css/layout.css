@@ -1,5 +1,11 @@
 @media only screen and  (max-width:960px) and (min-width:768px) {
      
+    .container{
+        display: flex;
+        flex-wrap:wrap;
+        /* justify-self: flex-end; */
+
+    }
     main .a{
         text-align: center;
         padding-top: 45px;
@@ -13,7 +19,9 @@
     
     }
     .b ,.c ,.d{
-        float: left;
+       /* display:flex; */
+       justify-content: center;
+       line-height: center;
       
     }
     .c,.d{
@@ -26,16 +34,25 @@
     }
     
     .e{
-        display: inline-block;
+        /* display: inline-block; */
         text-align: center;
         padding-top: 45px;
         padding-bottom: auto;
        
     }
+    .witheach{
+        display: flex;
+        flex-wrap: wrap;
+
+        
+        
+
+    }
     .f,.g,.h{
-        float: left;
+        /* float: left; */
+
         margin: 0px 0px;
-    display: inline-block;
+    /* display: inline-block; */
         text-align: center;
         padding-top: 45px;
         padding-bottom: auto;
@@ -43,7 +60,7 @@
     }
     .float-left{
         float: left;
-        background:none;
+        /* background:none; */
     } 
     .i{
         text-align: center;
@@ -53,10 +70,17 @@
     }
 }
 @media only screen and  (max-width:767px) and (min-width:480px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
     main .a{
         text-align: center;
         padding-top: 45px;
         padding-bottom: auto;
+
        
     }
     main .b{
@@ -66,7 +90,9 @@
        
     }
     .b ,.c ,.d{
-        float: left;
+       display: flex;
+       flex-direction: column;
+
       
     }
     .c,.d{
@@ -76,24 +102,32 @@
         padding-bottom: auto;
         
     }
-    
+  
+  
     .e,.h{
+        display: flex;
         float: left;
-        display: inline-block;
+        flex-direction: column;
         text-align: center;
         padding-top: 45px;
         padding-bottom: auto;
        
     }
     .f,.g{
+        display: flex;
         float: left;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        
         margin: 0px 0px;
-    display: inline-block;
-        text-align: center;
-        padding-top: 45px;
+
+        padding-top: 60px;
         padding-bottom: auto;
         
     }
+   
     
     main  .float-left  .i{
       
